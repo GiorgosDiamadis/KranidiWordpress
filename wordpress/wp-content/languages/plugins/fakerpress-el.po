@@ -1,0 +1,964 @@
+# Translation of Plugins - FakerPress - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - FakerPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-04 08:08:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - FakerPress - Stable (latest release)\n"
+
+#: src/FakerPress/Utils.php:1453
+msgid "Zimbabwe"
+msgstr "Ζιμπάμπουε"
+
+#: src/FakerPress/Utils.php:1443
+msgid "Yemen"
+msgstr "Υεμένη"
+
+#: src/FakerPress/Utils.php:1448
+msgid "Zambia"
+msgstr "Ζάμπια"
+
+#: src/FakerPress/Utils.php:1428
+msgid "Vietnam"
+msgstr "Βιετνάμ"
+
+#: src/FakerPress/Utils.php:1433
+msgid "Wallis and Futuna"
+msgstr "Νήσοι Ουαλλίς και Φουτουνά"
+
+#: src/FakerPress/Utils.php:1438
+msgid "Western Sahara"
+msgstr "Δυτική Σαχάρα"
+
+#: src/FakerPress/Utils.php:1413
+msgid "Uzbekistan"
+msgstr "Ουζμπεκιστάν"
+
+#: src/FakerPress/Utils.php:1418
+msgid "Vanuatu"
+msgstr "Βανουάτου"
+
+#: src/FakerPress/Utils.php:1423
+msgid "Venezuela"
+msgstr "Βενεζουέλα"
+
+#: src/FakerPress/Utils.php:1403
+msgid "United States"
+msgstr "Ηνωμένες Πολιτείες Αμερικής"
+
+#: src/FakerPress/Utils.php:1408
+msgid "Uruguay"
+msgstr "Ουρουγουάη"
+
+#: src/FakerPress/Utils.php:1388
+msgid "Ukraine"
+msgstr "Ουκρανία"
+
+#: src/FakerPress/Utils.php:1393
+msgid "United Arab Emirates"
+msgstr "Ηνωμένα Αραβικά Εμιράτα"
+
+#: src/FakerPress/Utils.php:1398
+msgid "United Kingdom"
+msgstr "Ηνωμένο Βασίλειο"
+
+#: src/FakerPress/Utils.php:1373
+msgid "Turks and Caicos Islands"
+msgstr "Νήσοι Τερκς και Κάικος"
+
+#: src/FakerPress/Utils.php:1378
+msgid "Tuvalu"
+msgstr "Τουβαλού"
+
+#: src/FakerPress/Utils.php:1383
+msgid "Uganda"
+msgstr "Ουγκάντα"
+
+#: src/FakerPress/Utils.php:1358
+msgid "Tunisia"
+msgstr "Τυνησία"
+
+#: src/FakerPress/Utils.php:1363
+msgid "Turkey"
+msgstr "Τουρκία"
+
+#: src/FakerPress/Utils.php:1368
+msgid "Turkmenistan"
+msgstr "Τουρκμενιστάν"
+
+#: src/FakerPress/Utils.php:1343
+msgid "Tokelau"
+msgstr "Τοκελάου"
+
+#: src/FakerPress/Utils.php:1348
+msgid "Tonga"
+msgstr "Τοκελάου"
+
+#: src/FakerPress/Utils.php:1353
+msgid "Trinidad and Tobago"
+msgstr "Τρινιντάντ και Τομπάγκο"
+
+#: src/FakerPress/Utils.php:1333
+msgid "East Timor"
+msgstr "Ανατολικό Τιμόρ"
+
+#: src/FakerPress/Utils.php:1338
+msgid "Togo"
+msgstr "Τόγκο"
+
+#: src/FakerPress/Utils.php:1318
+msgid "Tajikistan"
+msgstr "Τατζικιστάν"
+
+#: src/FakerPress/Utils.php:1323
+msgid "Tanzania"
+msgstr "Τανζανία"
+
+#: src/FakerPress/Utils.php:1328
+msgid "Thailand"
+msgstr "Ταϊλάνδη"
+
+#: src/FakerPress/Utils.php:1308
+msgid "Syria"
+msgstr "Συρία"
+
+#: src/FakerPress/Utils.php:1313
+msgid "Taiwan"
+msgstr "Ταϊβάν"
+
+#: src/FakerPress/Utils.php:1293
+msgid "Swaziland"
+msgstr "Ζουαζιλάνδη"
+
+#: src/FakerPress/Utils.php:1298
+msgid "Sweden"
+msgstr "Σουηδία"
+
+#: src/FakerPress/Utils.php:1303
+msgid "Switzerland"
+msgstr "Ελβετία"
+
+#: src/FakerPress/Utils.php:1278
+msgid "Sudan"
+msgstr "Σουδάν"
+
+#: src/FakerPress/Utils.php:1283
+msgid "Suriname"
+msgstr "Σουρινάμ"
+
+#: src/FakerPress/Utils.php:1288
+msgid "Svalbard and Jan Mayen"
+msgstr "Σβάλμπαρντ και Γιαν Μαγιέν"
+
+#: src/FakerPress/Utils.php:1263
+msgid "South Sudan"
+msgstr "Νότιο Σουδάν"
+
+#: src/FakerPress/Utils.php:1268
+msgid "Spain"
+msgstr "Ισπανία"
+
+#: src/FakerPress/Utils.php:1273
+msgid "Sri Lanka"
+msgstr "Σρι Λάνκα"
+
+#: src/FakerPress/Utils.php:1253
+msgid "South Georgia"
+msgstr "Νότια Γεωργία"
+
+#: src/FakerPress/Utils.php:1258
+msgid "South Korea"
+msgstr "Νότια Κορέα"
+
+#: src/FakerPress/Utils.php:1238
+msgid "Solomon Islands"
+msgstr "Νησιά Σολομώντα"
+
+#: src/FakerPress/Utils.php:1243
+msgid "Somalia"
+msgstr "Σομαλία"
+
+#: src/FakerPress/Utils.php:1248
+msgid "South Africa"
+msgstr "Νότια Αφρική"
+
+#: src/FakerPress/Utils.php:1228
+msgid "Slovakia"
+msgstr "Σλοβακία"
+
+#: src/FakerPress/Utils.php:1233
+msgid "Slovenia"
+msgstr "Σλοβενία"
+
+#: src/FakerPress/Utils.php:1213
+msgid "Sierra Leone"
+msgstr "Σιέρα Λεόνε"
+
+#: src/FakerPress/Utils.php:1218
+msgid "Singapore"
+msgstr "Σιγκαπούρη"
+
+#: src/FakerPress/Utils.php:1198
+msgid "Senegal"
+msgstr "Σενεγάλη"
+
+#: src/FakerPress/Utils.php:1203
+msgid "Serbia"
+msgstr "Σερβία"
+
+#: src/FakerPress/Utils.php:1208
+msgid "Seychelles"
+msgstr "Σεϋχέλλες"
+
+#: src/FakerPress/Utils.php:1188
+msgid "São Tomé and Príncipe"
+msgstr "Σάο Τομέ και Πρίνσιπε"
+
+#: src/FakerPress/Utils.php:1193
+msgid "Saudi Arabia"
+msgstr "Σαουδική Αραβία"
+
+#: src/FakerPress/Utils.php:1178
+msgid "Samoa"
+msgstr "Σαμόα"
+
+#: src/FakerPress/Utils.php:1183
+msgid "San Marino"
+msgstr "Σαν Μαρίνο"
+
+#: src/FakerPress/Utils.php:1158
+msgid "Saint Lucia"
+msgstr "Αγία Λουκία"
+
+#: src/FakerPress/Utils.php:1168
+msgid "Saint Pierre and Miquelon"
+msgstr "Σεν Πιερ και Μικελόν"
+
+#: src/FakerPress/Utils.php:1173
+msgid "Saint Vincent and the Grenadines"
+msgstr "Άγιος Βικέντιος και Γρεναδίνες"
+
+#: src/FakerPress/Utils.php:1138
+msgid "Rwanda"
+msgstr "Ρουάντα"
+
+#: src/FakerPress/Utils.php:1148
+msgid "Saint Helena"
+msgstr "Αγία Ελένη"
+
+#: src/FakerPress/Utils.php:1153
+msgid "Saint Kitts and Nevis"
+msgstr "Άγιος Χριστόφορος και Νέβις"
+
+#: src/FakerPress/Utils.php:1128
+msgid "Romania"
+msgstr "Ρουμανία"
+
+#: src/FakerPress/Utils.php:1133
+msgid "Russia"
+msgstr "Ρωσία"
+
+#: src/FakerPress/Utils.php:1113
+msgid "Qatar"
+msgstr "Κατάρ"
+
+#: src/FakerPress/Utils.php:1103
+msgid "Portugal"
+msgstr "Πορτογαλία"
+
+#: src/FakerPress/Utils.php:1108
+msgid "Puerto Rico"
+msgstr "Πουέρτο Ρίκο"
+
+#: src/FakerPress/Utils.php:1083
+msgid "Peru"
+msgstr "Περού"
+
+#: src/FakerPress/Utils.php:1088
+msgid "Philippines"
+msgstr "Φιλιππίνες"
+
+#: src/FakerPress/Utils.php:1098
+msgid "Poland"
+msgstr "Πολωνία"
+
+#: src/FakerPress/Utils.php:1073
+msgid "Papua New Guinea"
+msgstr "Παπούα Νέα Γουινέα"
+
+#: src/FakerPress/Utils.php:1078
+msgid "Paraguay"
+msgstr "Παραγουάη"
+
+#: src/FakerPress/Utils.php:1063
+msgid "Palestine"
+msgstr "Παλαιστίνη"
+
+#: src/FakerPress/Utils.php:1068
+msgid "Panama"
+msgstr "Παναμάς"
+
+#: src/FakerPress/Utils.php:1048
+msgid "Oman"
+msgstr "Ομάν"
+
+#: src/FakerPress/Utils.php:1053
+msgid "Pakistan"
+msgstr "Πακιστάν"
+
+#: src/FakerPress/Utils.php:1058
+msgid "Palau"
+msgstr "Παλάου"
+
+#: src/FakerPress/Utils.php:1038
+msgid "Northern Mariana Islands"
+msgstr "Βόρειες Μαριάνες Νήσοι"
+
+#: src/FakerPress/Utils.php:1043
+msgid "Norway"
+msgstr "Νορβηγία"
+
+#: src/FakerPress/Utils.php:1023
+msgid "Niue"
+msgstr "Νιούε"
+
+#: src/FakerPress/Utils.php:1028
+msgid "Norfolk Island"
+msgstr "Νήσος Νόρφολκ"
+
+#: src/FakerPress/Utils.php:1033
+msgid "North Korea"
+msgstr "Βόρεια Κορέα"
+
+#: src/FakerPress/Utils.php:1013
+msgid "Niger"
+msgstr "Νίγηρας"
+
+#: src/FakerPress/Utils.php:1018
+msgid "Nigeria"
+msgstr "Νιγηρία"
+
+#: src/FakerPress/Utils.php:998
+msgid "New Caledonia"
+msgstr "Νέα Καληδονία"
+
+#: src/FakerPress/Utils.php:1003
+msgid "New Zealand"
+msgstr "Νέα Ζηλανδία"
+
+#: src/FakerPress/Utils.php:1008
+msgid "Nicaragua"
+msgstr "Νικαράγουα"
+
+#: src/FakerPress/Utils.php:988
+msgid "Nepal"
+msgstr "Νεπάλ"
+
+#: src/FakerPress/Utils.php:993
+msgid "Netherlands"
+msgstr "Ολλανδία"
+
+#: src/FakerPress/Utils.php:973
+msgid "Myanmar"
+msgstr "Μιανμάρ"
+
+#: src/FakerPress/Utils.php:978
+msgid "Namibia"
+msgstr "Ναμίμπια"
+
+#: src/FakerPress/Utils.php:983
+msgid "Nauru"
+msgstr "Ναούρου"
+
+#: src/FakerPress/Utils.php:963
+msgid "Morocco"
+msgstr "Μαρόκο"
+
+#: src/FakerPress/Utils.php:968
+msgid "Mozambique"
+msgstr "Μοζαμβίκη"
+
+#: src/FakerPress/Utils.php:948
+msgid "Mongolia"
+msgstr "Μονγκολία"
+
+#: src/FakerPress/Utils.php:953
+msgid "Montenegro"
+msgstr "Μαυροβούνιο"
+
+#: src/FakerPress/Utils.php:958
+msgid "Montserrat"
+msgstr "Μονσεράτ"
+
+#: src/FakerPress/Utils.php:938
+msgid "Moldova"
+msgstr "Μολδαβία"
+
+#: src/FakerPress/Utils.php:943
+msgid "Monaco"
+msgstr "Μονακό"
+
+#: src/FakerPress/Utils.php:923
+msgid "Mayotte"
+msgstr "Μαγιότ"
+
+#: src/FakerPress/Utils.php:928
+msgid "Mexico"
+msgstr "Μεξικό"
+
+#: src/FakerPress/Utils.php:913
+msgid "Mauritania"
+msgstr "Μαυριτανία"
+
+#: src/FakerPress/Utils.php:918
+msgid "Mauritius"
+msgstr "Μαυρίκιος"
+
+#: src/FakerPress/Utils.php:908
+msgid "Martinique"
+msgstr "Μαρτινίκα"
+
+#: src/FakerPress/Utils.php:898
+msgid "Malta"
+msgstr "Μάλτα"
+
+#: src/FakerPress/Utils.php:903
+msgid "Marshall Islands"
+msgstr "Νήσοι Μάρσαλ"
+
+#: src/FakerPress/Utils.php:888
+msgid "Maldives"
+msgstr "Μαλδίβες"
+
+#: src/FakerPress/Utils.php:893
+msgid "Mali"
+msgstr "Μάλι"
+
+#: src/FakerPress/Utils.php:873
+msgid "Madagascar"
+msgstr "Μαδαγασκάρη"
+
+#: src/FakerPress/Utils.php:878
+msgid "Malawi"
+msgstr "Μαλάουι"
+
+#: src/FakerPress/Utils.php:883
+msgid "Malaysia"
+msgstr "Μαλαισία"
+
+#: src/FakerPress/Utils.php:863
+msgid "Macau"
+msgstr "Μακάο"
+
+#: src/FakerPress/Utils.php:848
+msgid "Liechtenstein"
+msgstr "Λιχτενστάιν"
+
+#: src/FakerPress/Utils.php:853
+msgid "Lithuania"
+msgstr "Λιθουανία"
+
+#: src/FakerPress/Utils.php:858
+msgid "Luxembourg"
+msgstr "Λουξεμβούργο"
+
+#: src/FakerPress/Utils.php:838
+msgid "Liberia"
+msgstr "Λιβερία"
+
+#: src/FakerPress/Utils.php:843
+msgid "Libya"
+msgstr "Λιβύη"
+
+#: src/FakerPress/Utils.php:823
+msgid "Latvia"
+msgstr "Λετονία"
+
+#: src/FakerPress/Utils.php:828
+msgid "Lebanon"
+msgstr "Λίβανος"
+
+#: src/FakerPress/Utils.php:833
+msgid "Lesotho"
+msgstr "Λεσόθο"
+
+#: src/FakerPress/Utils.php:813
+msgid "Kyrgyzstan"
+msgstr "Κιργιστάν"
+
+#: src/FakerPress/Utils.php:818
+msgid "Laos"
+msgstr "Λάος"
+
+#: src/FakerPress/Utils.php:803
+msgid "Kiribati"
+msgstr "Κιριμπάτι"
+
+#: src/FakerPress/Utils.php:808
+msgid "Kuwait"
+msgstr "Κουβέιτ"
+
+#: src/FakerPress/Utils.php:788
+msgid "Jordan"
+msgstr "Ιορδανία"
+
+#: src/FakerPress/Utils.php:793
+msgid "Kazakhstan"
+msgstr "Καζακστάν"
+
+#: src/FakerPress/Utils.php:798
+msgid "Kenya"
+msgstr "Κένυα"
+
+#: src/FakerPress/Utils.php:778
+msgid "Japan"
+msgstr "Ιαπωνία"
+
+#: src/FakerPress/Utils.php:783
+msgid "Jersey"
+msgstr "Τζέρσεϊ"
+
+#: src/FakerPress/Utils.php:773
+msgid "Jamaica"
+msgstr "Ιαμαϊκή"
+
+#: src/FakerPress/Utils.php:763
+msgid "Israel"
+msgstr "Ισραήλ"
+
+#: src/FakerPress/Utils.php:768
+msgid "Italy"
+msgstr "Ιταλία"
+
+#: src/FakerPress/Utils.php:748
+msgid "Iraq"
+msgstr "Ιράκ"
+
+#: src/FakerPress/Utils.php:753
+msgid "Republic of Ireland"
+msgstr "Ιρλανδία"
+
+#: src/FakerPress/Utils.php:758
+msgid "Isle of Man"
+msgstr "Νήσος του Μαν"
+
+#: src/FakerPress/Utils.php:733
+msgid "Indonesia"
+msgstr "Ινδονησία"
+
+#: src/FakerPress/Utils.php:738
+msgid "Ivory Coast"
+msgstr "Ακτή Ελεφαντοστού"
+
+#: src/FakerPress/Utils.php:743
+msgid "Iran"
+msgstr "Ιράν"
+
+#: src/FakerPress/Utils.php:718
+msgid "Hungary"
+msgstr "Ουγγαρία"
+
+#: src/FakerPress/Utils.php:723
+msgid "Iceland"
+msgstr "Ισλανδία"
+
+#: src/FakerPress/Utils.php:728
+msgid "India"
+msgstr "Ινδία"
+
+#: src/FakerPress/Utils.php:708
+msgid "Honduras"
+msgstr "Ονδούρα"
+
+#: src/FakerPress/Utils.php:713
+msgid "Hong Kong"
+msgstr "Χόνγκ Κόνγκ"
+
+#: src/FakerPress/Utils.php:698
+msgid "Haiti"
+msgstr "Αϊτή"
+
+#: src/FakerPress/Utils.php:703
+msgid "Heard Island and McDonald Islands"
+msgstr "Νήσοι Χερντ και Μακ Ντόναλντ"
+
+#: src/FakerPress/Utils.php:683
+msgid "Guinea"
+msgstr "Γουινέα"
+
+#: src/FakerPress/Utils.php:688
+msgid "Guinea-Bissau"
+msgstr "Γουινέα-Μπισάου"
+
+#: src/FakerPress/Utils.php:693
+msgid "Guyana"
+msgstr "Γουιάνα"
+
+#: src/FakerPress/Utils.php:673
+msgid "Guatemala"
+msgstr "Γουατεμάλα"
+
+#: src/FakerPress/Utils.php:678
+msgid "Guernsey"
+msgstr "Γκέρνσεϊ"
+
+#: src/FakerPress/Utils.php:668
+msgid "Guam"
+msgstr "Γκουάμ"
+
+#: src/FakerPress/Utils.php:658
+msgid "Grenada"
+msgstr "Γρενάδα"
+
+#: src/FakerPress/Utils.php:663
+msgid "Guadeloupe"
+msgstr "Γουαδελούπη"
+
+#: src/FakerPress/Utils.php:648
+msgid "Greece"
+msgstr "Ελλάδα"
+
+#: src/FakerPress/Utils.php:653
+msgid "Greenland"
+msgstr "Γροιλανδία"
+
+#: src/FakerPress/Utils.php:633
+msgid "Germany"
+msgstr "Γερμανία"
+
+#: src/FakerPress/Utils.php:638
+msgid "Ghana"
+msgstr "Γκάνα"
+
+#: src/FakerPress/Utils.php:643
+msgid "Gibraltar"
+msgstr "Γιβλαρτάρ"
+
+#: src/FakerPress/Utils.php:618
+msgid "Gabon"
+msgstr "Γκαμπόν"
+
+#: src/FakerPress/Utils.php:628
+msgid "Georgia"
+msgstr "Γεωργία"
+
+#: src/FakerPress/Utils.php:598
+msgid "France"
+msgstr "Γαλλία"
+
+#: src/FakerPress/Utils.php:603
+msgid "French Guiana"
+msgstr "Γαλλική Γουιάνα"
+
+#: src/FakerPress/Utils.php:608
+msgid "French Polynesia"
+msgstr "Γαλλική Πολυνησία"
+
+#: src/FakerPress/Utils.php:588
+msgid "Fiji"
+msgstr "Φίτζι"
+
+#: src/FakerPress/Utils.php:593
+msgid "Finland"
+msgstr "Φιλανδία"
+
+#: src/FakerPress/Utils.php:578
+msgid "Falkland Islands"
+msgstr "Νήσοι Φώκλαντ"
+
+#: src/FakerPress/Utils.php:583
+msgid "Faroe Islands"
+msgstr "Νησιά Φερόε"
+
+#: src/FakerPress/Utils.php:563
+msgid "Eritrea"
+msgstr "Ερυθραία"
+
+#: src/FakerPress/Utils.php:568
+msgid "Estonia"
+msgstr "Εσθονία"
+
+#: src/FakerPress/Utils.php:573
+msgid "Ethiopia"
+msgstr "Αιθιοπία"
+
+#: src/FakerPress/Utils.php:553
+msgid "El Salvador"
+msgstr "Ελ Σαλβαδόρ"
+
+#: src/FakerPress/Utils.php:558
+msgid "Equatorial Guinea"
+msgstr "Ισημερινή Γουινέα"
+
+#: src/FakerPress/Utils.php:538
+msgid "Dominican Republic"
+msgstr "Δομινικανή Δημοκρατία"
+
+#: src/FakerPress/Utils.php:543
+msgid "Ecuador"
+msgstr "Ισημερινός"
+
+#: src/FakerPress/Utils.php:548
+msgid "Egypt"
+msgstr "Αίγυπτος"
+
+#: src/FakerPress/Utils.php:533
+msgid "Dominica"
+msgstr "Ντομίνικα"
+
+#: src/FakerPress/Utils.php:518
+msgid "Czech Republic"
+msgstr "Τσεχία"
+
+#: src/FakerPress/Utils.php:523
+msgid "Denmark"
+msgstr "Δανία"
+
+#: src/FakerPress/Utils.php:528
+msgid "Djibouti"
+msgstr "Τζιμπουτί"
+
+#: src/FakerPress/Utils.php:498
+msgid "Croatia"
+msgstr "Κροατία"
+
+#: src/FakerPress/Utils.php:503
+msgid "Cuba"
+msgstr "Κούβα"
+
+#: src/FakerPress/Utils.php:513
+msgid "Cyprus"
+msgstr "Κύπρος"
+
+#: src/FakerPress/Utils.php:493
+msgid "Costa Rica"
+msgstr "Κόστα Ρίκα"
+
+#: src/FakerPress/Utils.php:478
+msgid "Republic of the Congo"
+msgstr "Δημοκρατία του Κονγκό"
+
+#: src/FakerPress/Utils.php:483
+msgid "Democratic Republic of the Congo"
+msgstr "Λαϊκή Δημοκρατία του Κονγκό"
+
+#: src/FakerPress/Utils.php:488
+msgid "Cook Islands"
+msgstr "Νήσοι Κουκ"
+
+#: src/FakerPress/Utils.php:463
+msgid "Cocos (Keeling) Islands"
+msgstr "Νησιά Κόκος (Κίλινγκ)"
+
+#: src/FakerPress/Utils.php:468
+msgid "Colombia"
+msgstr "Κολομβία"
+
+#: src/FakerPress/Utils.php:473
+msgid "Comoros"
+msgstr "Κομόρες"
+
+#: src/FakerPress/Utils.php:448
+msgid "Chile"
+msgstr "Χιλή"
+
+#: src/FakerPress/Utils.php:453
+msgid "China"
+msgstr "Κίνα"
+
+#: src/FakerPress/Utils.php:458
+msgid "Christmas Island"
+msgstr "Νήσος των Χριστουγέννων"
+
+#: src/FakerPress/Utils.php:433
+msgid "Cayman Islands"
+msgstr "Νησιά Καϊμάν"
+
+#: src/FakerPress/Utils.php:438
+msgid "Central African Republic"
+msgstr "Κεντροαφρικανική Δημοκρατία"
+
+#: src/FakerPress/Utils.php:443
+msgid "Chad"
+msgstr "Τσαντ"
+
+#: src/FakerPress/Utils.php:428
+msgid "Cape Verde"
+msgstr "Πράσινο Ακρωτήριο"
+
+#: src/FakerPress/Utils.php:413
+msgid "Cambodia"
+msgstr "Καμπότζη"
+
+#: src/FakerPress/Utils.php:418
+msgid "Cameroon"
+msgstr "Καμερούν"
+
+#: src/FakerPress/Utils.php:423
+msgid "Canada"
+msgstr "Καναδάς"
+
+#: src/FakerPress/Utils.php:398
+msgid "Bulgaria"
+msgstr "Βουλγαρία"
+
+#: src/FakerPress/Utils.php:403
+msgid "Burkina Faso"
+msgstr "Μπουρκίνα Φάσο"
+
+#: src/FakerPress/Utils.php:408
+msgid "Burundi"
+msgstr "Μπουρούντι"
+
+#: src/FakerPress/Utils.php:388
+msgid "British Virgin Islands"
+msgstr "Βρετανικές Παρθένοι Νήσοι"
+
+#: src/FakerPress/Utils.php:393
+msgid "Brunei"
+msgstr "Μπρουνέι"
+
+#: src/FakerPress/Utils.php:378
+msgid "British Indian Ocean Territory"
+msgstr "Βρετανικά εδάφη του Ινδικού Ωκεανού"
+
+#: src/FakerPress/Utils.php:383
+msgid "United States Minor Outlying Islands"
+msgstr "Ηνωμένες Πολιτείες Μικρά Απομονωμένα Νησιά"
+
+#: src/FakerPress/Utils.php:363
+msgid "Botswana"
+msgstr "Μποτσουάνα"
+
+#: src/FakerPress/Utils.php:368
+msgid "Bouvet Island"
+msgstr "Νήσος Μπουβέ"
+
+#: src/FakerPress/Utils.php:373
+msgid "Brazil"
+msgstr "Βραζιλία"
+
+#: src/FakerPress/Utils.php:343
+msgid "Bhutan"
+msgstr "Μπουτάν"
+
+#: src/FakerPress/Utils.php:348
+msgid "Bolivia"
+msgstr "Βολιβία"
+
+#: src/FakerPress/Utils.php:358
+msgid "Bosnia and Herzegovina"
+msgstr "Βοσνία-Ερζεγοβίνη"
+
+#: src/FakerPress/Utils.php:338
+msgid "Bermuda"
+msgstr "Βερμούδα"
+
+#: src/FakerPress/Utils.php:333
+msgid "Benin"
+msgstr "Μπενίν"
+
+#: src/FakerPress/Utils.php:323
+msgid "Belgium"
+msgstr "Βέλγιο"
+
+#: src/FakerPress/Utils.php:328
+msgid "Belize"
+msgstr "Μπελίσε"
+
+#: src/FakerPress/Utils.php:313
+msgid "Barbados"
+msgstr "Μπαρμπάντος"
+
+#: src/FakerPress/Utils.php:318
+msgid "Belarus"
+msgstr "Λευκορωσία"
+
+#: src/FakerPress/Utils.php:308
+msgid "Bangladesh"
+msgstr "Μπανγκλαντές"
+
+#: src/FakerPress/Utils.php:293
+msgid "Azerbaijan"
+msgstr "Αζερμπαϊτζάν"
+
+#: src/FakerPress/Utils.php:303
+msgid "Bahrain"
+msgstr "Μπαχρέιν"
+
+#: src/FakerPress/Utils.php:288
+msgid "Austria"
+msgstr "Αυστρία"
+
+#: src/FakerPress/Utils.php:278
+msgid "Aruba"
+msgstr "Αρούμπα"
+
+#: src/FakerPress/Utils.php:283
+msgid "Australia"
+msgstr "Αυστραλία"
+
+#: src/FakerPress/Utils.php:268
+msgid "Argentina"
+msgstr "Αργεντινή"
+
+#: src/FakerPress/Utils.php:273
+msgid "Armenia"
+msgstr "Αρμενία"
+
+#: src/FakerPress/Utils.php:258
+msgid "Anguilla"
+msgstr "Ανγκουίλλα"
+
+#: src/FakerPress/Utils.php:263
+msgid "Antigua and Barbuda"
+msgstr "Αντίγκουα και Μπαρμπούντα"
+
+#: src/FakerPress/Utils.php:253
+msgid "Angola"
+msgstr "Ανγκόλα"
+
+#: src/FakerPress/Utils.php:243
+msgid "American Samoa"
+msgstr "Αμερικανικοί Νήσοι Σαμόα"
+
+#: src/FakerPress/Utils.php:248
+msgid "Andorra"
+msgstr "Ανδόρα"
+
+#: src/FakerPress/Utils.php:228
+msgid "Åland Islands"
+msgstr "Νήσοι Ώλαντ"
+
+#: src/FakerPress/Utils.php:233
+msgid "Albania"
+msgstr "Αλβανία"
+
+#: src/FakerPress/Utils.php:238
+msgid "Algeria"
+msgstr "Αλγερία"
+
+#: src/FakerPress/Utils.php:223
+msgid "Afghanistan"
+msgstr "Αφγανιστάν"
+
+#: src/FakerPress/Field.php:876 src/templates/pages/terms.php:52
+msgid "Taxonomies"
+msgstr "Ταξινομίες"
+
+#: src/FakerPress/Dates.php:14
+msgid "Today"
+msgstr "Σήμερα"
+
+#: src/FakerPress/Admin.php:85 src/FakerPress/Admin.php:265
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: src/templates/pages/attachments.php:173 src/templates/pages/posts.php:130
+msgid "Author"
+msgstr "Συντάκτης"
