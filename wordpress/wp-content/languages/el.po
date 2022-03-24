@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-15 08:38:29+0000\n"
+"PO-Revision-Date: 2022-03-19 08:18:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -475,6 +475,10 @@ msgstr "Τίτλος για το αντικείμενο, όπως υπάρχει
 msgid "Get linked object."
 msgstr "Λάβετε ένα συνδεδμένο αντικείμενο."
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:454
+msgid "The url is required when using a custom menu item type."
+msgstr "Το url απαιτείται όταν χρησιμοποιείτε ένα τύπο προσαρμοσμένου μενού."
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:451
 msgid "The title is required when using a custom menu item type."
 msgstr "Ο τίτλος απαιτείται όταν χρησιμοποιείται ένας προσαρμοσμένος τύπος στοιχείου μενού."
@@ -482,6 +486,10 @@ msgstr "Ο τίτλος απαιτείται όταν χρησιμοποιείτ
 #: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:529
 msgid "Sorry, you are not allowed to access the global styles on this site."
 msgstr "Δυστυχώς, δεν επιτρέπεται η πρόσβαση στα καθολικά στυλ σε αυτόν τον ιστότοπο."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:489
+msgid "Title of the global styles variation."
+msgstr "Ο τίτλος για το γενικό στυλ παραλλαγής."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:484
 msgid "Global settings."
@@ -727,6 +735,10 @@ msgstr "Άνοιγμα μενού"
 #: wp-includes/blocks/page-list.php:184
 msgid "%s submenu"
 msgstr "%s δευτερεύον μενού"
+
+#: wp-includes/blocks/navigation-link.php:286
+msgid "A link to a post format"
+msgstr "Ένας σύνδεσμος στην μορφή άρθρου"
 
 #: wp-includes/blocks/navigation-link.php:285
 msgid "Post Format Link"

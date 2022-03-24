@@ -1,115 +1,90 @@
-const more = document.getElementById("more");
-const dropdown = document.getElementById("dropdown-more");
-const navbar = document.querySelector(".navbar");
-const host = window.location.protocol + "//" + window.location.host;
-const pathname = window.location.pathname;
-const n = 5;
+// Grab elements
+const selectElement = (selector) => {
+    const element = document.querySelector(selector);
+    if(element) return element;
+    throw new Error(`Something went wrong! Make sure that ${selector} exists/is typed correctly.`);
+};
 
-more.addEventListener("click", (e) => {
-    dropdown.classList.toggle("open")
-})
-
-
-const openNavbar = () => {
-    document.querySelector('.navbar-menu').classList.toggle('is-active')
-    navbar.classList.toggle("white");
-
+//Nav styles on scroll
+const scrollHeader = () =>{
+    const navbarElement = selectElement('#header');
+    if(this.scrollY >= 15) {
+        navbarElement.classList.add('activated');
+    } else {
+        navbarElement.classList.remove('activated');
+    }
 }
-if (window.location.pathname === "/") {
-    const sliderContainer = document.querySelector(".slider-container")
 
-    const slideRight = document.querySelector(".right-slide")
+window.addEventListener('scroll', scrollHeader);
 
-    const slideLeft = document.querySelector(".left-slide")
+// Open menu & search pop-up
+const menuToggleIcon = selectElement('#menu-toggle-icon');
+const formOpenBtn = selectElement('#search-icon');
+const formCloseBtn = selectElement('#form-close-btn');
+const searchContainer = selectElement('#search-form-container');
 
+const toggleMenu = () =>{
+    const mobileMenu = selectElement('#menu');
+    mobileMenu.classList.toggle('activated');
+    menuToggleIcon.classList.toggle('activated');
+}
 
-    const nextBtn = document.querySelector('.slider-container .action-buttons button:nth-child(1)')
-    const prevBtn = document.querySelector('.slider-container .action-buttons button:nth-child(2)')
+menuToggleIcon.addEventListener('click', toggleMenu);
 
+// Open/Close search form popup
+formOpenBtn.addEventListener('click', () => searchContainer.classList.add('activated'));
+formCloseBtn.addEventListener('click', () => searchContainer.classList.remove('activated'));
+// -- Close the search form popup on ESC keypress
+window.addEventListener('keyup', (event) => {
+    if(event.key === 'Escape') searchContainer.classList.remove('activated');
+});
 
-    const slidesLength = slideLeft.querySelectorAll('div').length;
+// Switch theme/add to local storage
+const body = document.body;
+const themeToggleBtn = selectElement('#theme-toggle-btn');
+const currentTheme = localStorage.getItem('currentTheme');
 
-    let activeSlide = 0;
-// slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`
+// Check to see if there is a theme preference in local Storage, if so add the ligt theme to the body
+if (currentTheme) {
+    body.classList.add('light-theme');
+}
 
-    const changeSlide = (direction) => {
-        const sliderHeight = sliderContainer.clientHeight;
-        if (direction === "up") {
-            activeSlide++;
-            if (activeSlide > slidesLength - 1) {
-                activeSlide = 0;
-            }
-        } else {
-            activeSlide--;
-            if (activeSlide < 0) {
-                activeSlide = slidesLength - 1;
-            }
+themeToggleBtn.addEventListener('click', function () {
+    // Add light theme on click
+    body.classList.toggle('light-theme');
+
+    // If the body has the class of light theme then add it to local Storage, if not remove it
+    if (body.classList.contains('light-theme')) {
+        localStorage.setItem('currentTheme', 'themeActive');
+    } else {
+        localStorage.removeItem('currentTheme');
+    }
+});
+
+// Swiper
+const swiper = new Swiper(".swiper", {
+    // How many slides to show
+    slidesPerView: 1,
+    // How much space between slides
+    spaceBetween: 20,
+    // Make the next and previous buttons work
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    // Make the pagination indicators work
+    pagination: {
+        el: '.swiper-pagination'
+    },
+    //Responsive breakpoints for how many slides to show at that view
+    breakpoints: {
+        // 700px and up shoes 2 slides
+        700: {
+            slidesPerView: 2
+        },
+        // 1200px and up shoes 3 slides
+        1200: {
+            slidesPerView: 3
         }
-
-        slideRight.style.transform = `translateY(-${activeSlide * sliderHeight}px)`
-        slideLeft.style.transform = `translateY(-${activeSlide * sliderHeight}px)`
     }
-    nextBtn.addEventListener("click", () => changeSlide('up'))
-    prevBtn.addEventListener("click", () => changeSlide('down'))
-}
-
-const loadMoreBtn = document.getElementById("load-more");
-loadMoreBtn.addEventListener("click", (e) => {
-    loadMoreBtn.classList.add("is-loading")
-    const slug = pathname.includes("anakoinwseis") ? "anakoinwseis" : "draseis";
-    const container = document.getElementById("postsContainer")
-    const count = container.children.length;
-    const limit = count + n + 1;
-    var route = `${host}/wp-json/kranidi/v1/getMore?lower=${count}&upper=${limit}&cat=${slug}`;
-
-    $.get(route).done(function (data) {
-        loadMoreBtn.classList.remove("is-loading")
-        container.innerHTML += data;
-        console.log("ads")
-
-    })
-
-})
-
-const searchBtn = document.getElementById("search");
-var hasSearched = false;
-searchBtn.addEventListener("click", () => {
-    searchBtn.classList.add("is-loading")
-    const container = document.getElementById("postsContainer")
-    const like = document.querySelector("input[type=text]").value;
-    const slug = pathname.includes("anakoinwseis") ? "anakoinwseis" : "draseis";
-    var route = `${host}/wp-json/kranidi/v1/search?like=${like}&cat=${slug}`;
-    ;
-
-    $.get(route).done(function (data) {
-        searchBtn.classList.remove("is-loading")
-
-        container.innerHTML = data;
-    })
-})
-
-const cancelBtn = document.getElementById("cancel");
-cancelBtn.addEventListener("click", () => {
-    initialPosts();
-})
-
-const initialPosts = () => {
-    cancelBtn.classList.add("is-loading")
-    const container = document.getElementById("postsContainer")
-    const slug = pathname.includes("anakoinwseis") ? "anakoinwseis" : "draseis";
-    var route = `${host}/wp-json/kranidi/v1/getMore?lower=1&upper=5&cat=${slug}`;
-
-    $.get(route).done(function (data) {
-        cancelBtn.classList.remove("is-loading")
-
-        container.innerHTML = data;
-    })
-}
-
-const like = document.querySelector("input[type=text]");
-like.addEventListener("keyup", (e) => {
-    const value = e.target.value;
-    if (value === "") {
-        initialPosts()
-    }
-})
+});
