@@ -16,12 +16,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 
 </head>
-<body>
+<body class="light-theme">
 <header class="header" id="header">
 
     <nav class="navbar container">
         <a href="./index.html">
-            <h3 class="logo">1ο Δημοτικό Σχολείο <span>Κρανιδίου</span></h3>
+            <h3 class="logo">1ο Δημοτικό Σχολείο</h3>
         </a>
 
         <div class="menu" id="menu">
@@ -43,8 +43,8 @@
 
         <div class="list list-right">
             <button class="btn place-items-center" id="theme-toggle-btn">
-                <i class="ri-sun-line sun-icon"></i>
-                <i class="ri-moon-line moon-icon"></i>
+<!--                <i class="ri-sun-line sun-icon"></i>-->
+<!--                <i class="ri-moon-line moon-icon"></i>-->
             </button>
 
             <button class="btn place-items-center" id="search-icon">

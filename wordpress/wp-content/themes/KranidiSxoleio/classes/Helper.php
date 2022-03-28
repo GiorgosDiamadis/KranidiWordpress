@@ -15,7 +15,7 @@ class Helper
     }
 
 
-    public static function Fetch($maxDate)
+    public static function Fetch()
     {
         $params = array(
             'post_type' => 'post',
@@ -24,13 +24,7 @@ class Helper
                 'date' => 'DESC',
                 'menu_order' => 'ASC',
             ),
-            'posts_per_page' => 6,
-            'data_query' => array(
-                array(
-                    'before' => $maxDate,
-                    'inclusive' => true,
-                )
-            ),
+            'posts_per_page' => 12,
             'category__not_in' => 5
 
         );

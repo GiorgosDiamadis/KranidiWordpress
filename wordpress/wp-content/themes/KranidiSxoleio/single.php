@@ -6,8 +6,8 @@ get_header(); ?>
     <div class="blog-post-container container">
         <div class="blog-post-data">
             <h3 class="title blog-post-title"><?= get_the_title() ?></h3>
-            <div class="article-data">
-                <span><?= get_the_date() ?></span>
+            <div class="article-data" style="margin-top: 1rem">
+                <span ><?= get_the_date() ?></span>
             </div>
         </div>
 

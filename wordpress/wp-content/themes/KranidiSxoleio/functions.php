@@ -70,4 +70,18 @@ function SetPostViews($postID)
 
 }
 
+
+//$posts = new WP_Query(array('posts_per_page' => 1000,'post_type'=>'post'));
+//foreach ($posts->posts as $post){
+//    if (rand(0,10) < 5){
+//        wp_set_post_categories($post->ID,3);
+//
+//    }else if (rand(0,10) > 5){
+//        wp_set_post_categories($post->ID,4);
+//
+//    }else{
+//        wp_set_post_categories($post->ID,5);
+//
+//    }
+//}
 require_once __DIR__ . "/classes/Page.php";

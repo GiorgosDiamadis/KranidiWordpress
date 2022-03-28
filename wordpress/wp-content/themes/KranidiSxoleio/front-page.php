@@ -3,36 +3,26 @@ require_once __DIR__ . "/classes/Helper.php";
 get_header();
 $helper = Helper::GetConnect();
 
-$popular = $helper->GetPopular();
-$oldest = $popular[count($popular) - 1]->post;
+$posts = $helper->Fetch();
+$id = get_option('page_on_front');
+$img = wp_get_attachment_image_url(get_post_thumbnail_id($id),'full')
 
 ?>
 
+<section class="section section-header-offset container hero">
+    <h1 >Πρώτο Δημοτικό Σχολείο Κρανιδίου</h1>
+    <img src="<?= $img ?>" alt="">
+    <p >Στην ιστοσελίδα μας θα βρείτε χρήσιμες πληροφορίες για τη λειτουργία του καθώς και για εκδηλώσεις και δραστηριότητες που πραγματοποιούνται από μαθητές και εκπαιδευτικούς.</p>
+</section>
+
 <!-- Featured articles -->
-<section class="featured-articles section section-header-offset">
+<section class="featured-articles section section-header-offset container">
 
-    <div class="featured-articles-container container d-grid">
-
-        <div class="featured-content d-grid">
-
-            <?php
-            for ($i = 0; $i < 3; $i++) {
-                $popular[$i]->Featured($i + 1);
-            }
-            ?>
-        </div>
-
-        <div class="sidebar d-grid">
-
-            <h3 class="title featured-content-title">Δημοφιλέστερα</h3>
-            <?php
-            for (; $i < count($popular); $i++) {
-                $popular[$i]->Trending($i - 2);
-            }
-            ?>
-        </div>
-
-    </div>
+    <?php
+    for ($i = 0; $i < 1; $i++) {
+        $posts[$i]->Loose();
+    }
+    ?>
 
 </section>
 
@@ -41,13 +31,12 @@ $oldest = $popular[count($popular) - 1]->post;
 
     <div class="container">
 
-        <h2 class="title section-title" data-name="Παλαιοτερα">Παλαιότερα</h2>
+        <h2 class="title section-title">Παλαιότερα</h2>
 
         <div id="posts-container" class="older-posts-grid-wrapper d-grid">
             <?php
-            $older = $helper->Fetch($oldest->ID);
-            foreach ($older as $item) {
-                $item->Feed();
+            for ($i = 1; $i < count($posts); $i++) {
+                $posts[$i]->Feed();
             }
             ?>
 
